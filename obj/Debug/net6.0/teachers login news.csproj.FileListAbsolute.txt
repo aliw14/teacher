@@ -1,0 +1,15 @@
+/Users/ali/Projects/teachers login news/teachers login news/bin/Debug/net6.0/teachers login news
+/Users/ali/Projects/teachers login news/teachers login news/bin/Debug/net6.0/teachers login news.deps.json
+/Users/ali/Projects/teachers login news/teachers login news/bin/Debug/net6.0/teachers login news.runtimeconfig.json
+/Users/ali/Projects/teachers login news/teachers login news/bin/Debug/net6.0/teachers login news.dll
+/Users/ali/Projects/teachers login news/teachers login news/bin/Debug/net6.0/teachers login news.pdb
+/Users/ali/Projects/teachers login news/teachers login news/obj/Debug/net6.0/teachers login news.csproj.AssemblyReference.cache
+/Users/ali/Projects/teachers login news/teachers login news/obj/Debug/net6.0/teachers login news.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ali/Projects/teachers login news/teachers login news/obj/Debug/net6.0/teachers login news.AssemblyInfoInputs.cache
+/Users/ali/Projects/teachers login news/teachers login news/obj/Debug/net6.0/teachers login news.AssemblyInfo.cs
+/Users/ali/Projects/teachers login news/teachers login news/obj/Debug/net6.0/teachers login news.csproj.CoreCompileInputs.cache
+/Users/ali/Projects/teachers login news/teachers login news/obj/Debug/net6.0/teachers login news.dll
+/Users/ali/Projects/teachers login news/teachers login news/obj/Debug/net6.0/refint/teachers login news.dll
+/Users/ali/Projects/teachers login news/teachers login news/obj/Debug/net6.0/teachers login news.pdb
+/Users/ali/Projects/teachers login news/teachers login news/obj/Debug/net6.0/teachers login news.genruntimeconfig.cache
+/Users/ali/Projects/teachers login news/teachers login news/obj/Debug/net6.0/ref/teachers login news.dll
