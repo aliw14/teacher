@@ -7,18 +7,14 @@ namespace teachers_login_news.managers
         private Teachers[] _teachers = new Teachers[100];
         private int _currentIndex = 0;
 
-        public void Add(Person person, Teachers teacher)
-        {if(_currentIndex>99)
+        public void Add(Entity entity)
+        {
+            if (_currentIndex > 99)
             {
                 Console.WriteLine("limit kecildi 100 mellim daxil edile biler");
                 return;
             }
-            _teachers[_currentIndex++] = (Teachers)person;
-        }
-
-        public void Add(Entity entity)
-        {
-            throw new NotImplementedException();
+            _teachers[_currentIndex++] = (Teachers)entity;
         }
 
         public void Delete(int id)

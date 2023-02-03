@@ -25,18 +25,21 @@ class Program
                     EntryDate = DateTime.Now,
                     Profession = "Math",
                 };
+
+                var teacher2 = new Teachers
                 {
-                    var teacher2 = new Teachers
-                    {
-                        id = 2,
-                        Age = 25,
-                        Firstname = "kanan",
-                        lastname = "xasiyev",
-                        subject = "sport",
-                        Profession = "sport",
-                    };
-                }
-                teacherManager.Add(teacher,teacher);
+                    Id = 2,
+                    Age = 25,
+                    Firstname = "kanan",
+                    lastname = "xasiyev",
+                    subject = "sport",
+                    Profession = "sport",
+                     EntryDate=DateTime.Now
+                };
+
+
+                teacherManager.Add(teacher);
+                teacherManager.Add(teacher2);
 
             }
             else if (command.ToLower().Equals("print teacher"))
@@ -47,7 +50,7 @@ class Program
             {
                 Console.WriteLine("id daxil edin!");
                 var id = int.Parse(Console.ReadLine());
-               
+
                 teacherManager.Delete(id);
             }
             else if (command.ToLower().Equals("get teacher"))
@@ -56,11 +59,11 @@ class Program
                 var id = int.Parse(Console.ReadLine());
                 teacherManager.Get(1);
             }
-            else if(command.ToLower().Equals("get all teacher"))
+            else if (command.ToLower().Equals("get all teacher"))
             {
                 teacherManager.GetAll();
             }
-            else if(command.ToLower().Equals("update teacher"))
+            else if (command.ToLower().Equals("update teacher"))
             {
                 Console.Write("id daxil edin!");
                 var id = int.Parse(Console.ReadLine());
@@ -71,14 +74,14 @@ class Program
                 var teacher2 = new Teachers
                 {
                     id = 2,
-                    Firstname = "Kanan",
+                    Firstname = "murad",
                     lastname = "Xasiyev",
-                    subject = "sport",
+                    subject = "ədəbiyyat",
 
                 };
-                teacherManager.Update(id,teacher2);
+                teacherManager.Update(id, teacher2);
             }
-     
+
         } while (command.ToLower() != "quit");
 
 
