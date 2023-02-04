@@ -34,7 +34,7 @@ class Program
                     lastname = "xasiyev",
                     subject = "sport",
                     Profession = "sport",
-                     EntryDate=DateTime.Now
+                    EntryDate = DateTime.Now
                 };
 
 
@@ -53,27 +53,20 @@ class Program
 
                 teacherManager.Delete(id);
             }
-            else if (command.ToLower().Equals("get teacher"))
-            {
-                Console.WriteLine("id daxil edin!");
-                var id = int.Parse(Console.ReadLine());
-                teacherManager.Get(1);
-            }
-            else if (command.ToLower().Equals("get all teacher"))
-            {
-                teacherManager.GetAll();
-            }
             else if (command.ToLower().Equals("update teacher"))
             {
                 Console.Write("id daxil edin!");
                 var id = int.Parse(Console.ReadLine());
-                var existTeacher = teacherManager.Get(id);
-                if (existTeacher == null)
-                    continue;
-                Console.WriteLine(existTeacher);
+                // var existTeacher = teacherManager.Get(id);
+                // if (existTeacher == null)
+                //   continue;
+                //Console.WriteLine(existTeacher);
                 var teacher2 = new Teachers
                 {
-                    id = 2,
+                    Age = 36,
+                    EntryDate = DateTime.Now,
+                    Id = 3,
+                    Profession = "teacher",
                     Firstname = "murad",
                     lastname = "Xasiyev",
                     subject = "ədəbiyyat",

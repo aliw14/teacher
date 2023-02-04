@@ -45,34 +45,11 @@ namespace teachers_login_news.managers
                 Console.WriteLine($"{id}-li teacher not found");
         }
 
-        public Person Get(int id)
-        {
-            for (int i = 0; i < _teachers.Length; i++)
-            {
-                if (_teachers[i] == null) continue;
-
-                if (_teachers[i].Id == id)
-                {
-                    return _teachers[i];
-                }
-            }
-
-            Console.WriteLine("Not found!");
-
-            return null;
-        }
-
-        public Person[] GetAll()
-        {
-            return _teachers;
-        }
-
-
         public void Print()
         {
-            foreach (var item in _teachers) 
+            foreach (var item in _teachers)
             {
-                if (item == null) 
+                if (item == null)
                     continue;
                 Console.WriteLine(item.ToString());
             }
@@ -96,7 +73,7 @@ namespace teachers_login_news.managers
             Console.WriteLine("not found!");
         }
 
-        
+
 
         internal void Update(int id, Teachers teacher2)
         {

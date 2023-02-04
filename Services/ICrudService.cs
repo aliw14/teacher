@@ -9,9 +9,7 @@ namespace teachers_login_news
 
 		void Delete(int id);
 
-		Person Get(int id);
-
-		Person[] GetAll();
+		
 
 	}
 }
